@@ -1,6 +1,6 @@
 import discord
 
-from pwbot.utils.Formatter import Formatter
+from jarlbryjnar.utils.Formatter import Formatter
 
 formatter = Formatter()
 
