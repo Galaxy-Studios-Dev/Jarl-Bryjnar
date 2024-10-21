@@ -42,7 +42,7 @@ class JarlBryjnar:
 
     def __init__(self, token):
         self.__token = token
-        self.__kit = SimplePnW("f1e65cb20de0af9c1ede", self.__default_path, True)
+        self.__kit = SimplePnW("", self.__default_path, True)
         self.__logger = Logger(self.__kit.dataManager().logger_path)
 
         self.__vyo = Alliance(self.__kit, 13111)
